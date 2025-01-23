@@ -6,8 +6,8 @@ public class Question3 {
 
         testAccount.withdraw(2500);
         testAccount.deposit(3000);
-        System.out.println("The balance is " + testAccount.getBalance());
-        System.out.println("The monthly interest is " + testAccount.getMonthlyInterest());
+        System.out.println("The current balance is " + testAccount.getBalance() + " baht");
+        System.out.println("The monthly interest is " + testAccount.getMonthlyInterest() + " baht");
         System.out.println("The date this account was created is " + testAccount.getDateCreated());
     }
 }
